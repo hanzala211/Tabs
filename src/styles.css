@@ -1,0 +1,56 @@
+.active {
+  transition: 0.3s all linear;
+  transform: translateY(-5px);
+}
+.wholeDiv {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
+  box-sizing: border-box;
+}
+.buttonDiv > button {
+  border: none;
+  padding: 13px 40px;
+  font-size: 1.1em;
+  border-radius: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: -30px;
+}
+.buttonDiv > button:nth-child(1) {
+  background-color: #ffcb03;
+  left: 0px;
+}
+.buttonDiv > button:nth-child(2) {
+  background-color: #5ec576;
+  left: 210px;
+}
+.buttonDiv > button:nth-child(3) {
+  background-color: #ff585f;
+  right: -50px;
+}
+.tab-content {
+  background-color: #f3f3f3;
+  width: 100%;
+  padding: 20px;
+  height: 200px;
+}
+.tab-content > h3 {
+  font-size: 25px;
+}
+.tab-content > p {
+  font-size: 20px;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  opacity: 0.6;
+}
